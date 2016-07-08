@@ -38,7 +38,7 @@ module.exports = {
         //   https://github.com/jtangelder/sass-loader
         loaders: [
             {
-                test: /\.jsx?$/i, loaders: ['react-hot-loader', 'babel-loader'],
+                test: /\.jsx$/i, loaders: ['react-hot-loader', 'babel-loader'],
                 exclude: /node_modules/
             },
             {
